@@ -1,0 +1,22 @@
+{
+  "name": "sayhello-package",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/sayHello",
+  "root": "packages/sayHello",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/sayhello",
+        "main": "packages/sayHello/index.ts",
+        "tsConfig": "packages/sayHello/tsconfig.lib.json"
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": []
+}

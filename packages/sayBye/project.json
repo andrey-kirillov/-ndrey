@@ -1,0 +1,22 @@
+{
+  "name": "saybye-package",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/sayBye",
+  "root": "packages/sayBye",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/saybye",
+        "main": "packages/sayBye/index.ts",
+        "tsConfig": "./packages/sayBye/tsconfig.lib.json"
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": []
+}

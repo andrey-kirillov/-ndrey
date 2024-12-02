@@ -1,0 +1,11 @@
+{
+  "name": "@andrey-kirillov/andrey-mono",
+  "version": "1.0.0",
+  "description": "test monorepo",
+  "devDependencies": {
+    "@nx/js": "16.3.2",
+    "nx": "16.2.2",
+    "@nx/workspace": "16.2.2",
+    "@types/node": "18.14.2"
+  }
+}
