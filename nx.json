@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "generators": {
+    "@nx/react": {
+      "application": {
+        "babel": true
+      },
+      "library": {
+        "unitTestRunner": "jest"
+      }
+    }
+  },
+  "plugins": ["nx/plugins/package-json"]
+}
