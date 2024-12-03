@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "deploy-app-1" ]
+    branches: [ "deploy-app" ]
 env:
   CI: false
 
