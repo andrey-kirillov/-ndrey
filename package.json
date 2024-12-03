@@ -45,6 +45,6 @@
     "react-dom": "18.2.0"
   },
   "scripts": {
-    "build": "nx run-many -t build --base=\"/andrey-mono/\""
+    "build": "nx run-many -t build --base=\"/app1/\""
   }
 }
