@@ -9,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/apps/app1"
+        "outputPath": "dist/apps/andrey-mono"
       },
       "configurations": {
         "development": {
