@@ -47,6 +47,6 @@
   },
   "scripts": {
     "deploy": "npm run build && gh-pages -d ./dist/apps/app1",
-    "build": "nx run-many --target=build --skip-nx-cache --base=\"/app1\""
+    "build": "nx run-many --target=build --skip-nx-cache --base=\"/andrey-mono\""
   }
 }
