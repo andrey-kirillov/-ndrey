@@ -50,6 +50,10 @@ jobs:
         with:
           # Upload build directory content
           path: './dist/apps/app1'
+      - name: Debug dir
+        run: |
+          echo "Current directory:"
+          ls -la
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
