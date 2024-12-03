@@ -1,7 +1,7 @@
 {
   "name": "saybye-package",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/sayBye",
+  "sourceRoot": "packages/sayBye/src",
   "root": "packages/sayBye",
   "projectType": "library",
   "targets": {

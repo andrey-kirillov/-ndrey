@@ -1,7 +1,7 @@
 {
   "name": "sayhello-package",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/sayHello",
+  "sourceRoot": "packages/sayHello/src",
   "root": "packages/sayHello",
   "projectType": "library",
   "targets": {
