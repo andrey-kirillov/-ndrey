@@ -13,7 +13,8 @@
       "options": {
         "outputPath": "dist/sayhello",
         "main": "packages/sayHello/index.ts",
-        "tsConfig": "packages/sayHello/tsconfig.lib.json"
+        "tsConfig": "packages/sayHello/tsconfig.lib.json",
+        "rootDir": "packages/sayHello/src"
       }
     }
   },
